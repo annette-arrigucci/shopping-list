@@ -4,5 +4,15 @@ $(document).ready(function() {
 		$(".needed-items").prepend(mystring);
 		$('input:text').val('');
 		//alert($("input:text").val());
-	});
-})
+	})
+    $('ul').on('click', '.css-checkbox', function(event){
+    	//if($(".css-checkbox").prop("checked")==true)
+    	//if(this.checked) == true
+    	if ($(this).is(':checked'))
+    		{
+    			alert("box is checked");
+    		}
+  // fires when any LIs are clicked on
+  // including LIs that aren't on the page when it is initially loaded
+    });
+});
