@@ -12,19 +12,19 @@
 	</header>
 	<div class="item-input">
 		<form>
-			<input type="text" name="new-item" size="30">
-			<button type="button">Add item</button>
+			<input type="text" name="new-item" id="new-item" size="30">
+			<button type="button" id="add-item-button">Add item</button>
 		</form>
 	</div>
 	<div class="list-items">
 	<h1>NEEDED</h1>
-		<ul>
+		<ul class="needed-items">
 			<li><input type="checkbox" id="needed-item-1" class="css-checkbox lrg"><label for="needed-item-1" name="needed-item-1_lbl" class="css-label lrg vlad">Apples</label><button type="button">x</button></li>
 			<li><input type="checkbox" id="needed-item-2" class="css-checkbox lrg"><label for="needed-item-2" name="needed-item-2_lbl" class="css-label lrg vlad">Oranges</label><button type="button">x</button></li>
 			<li><input type="checkbox" id="needed-item-3" class="css-checkbox lrg"><label for="needed-item-3" name="needed-item-3_lbl" class="css-label lrg vlad">Bananas</label><button type="button">x</button></li>
 		</ul>
 		<h1>CHECKED OFF</h1>
-		<ul>
+		<ul class="checked-off-items">
 			<li><input type="checkbox" id="checked-item-1" class="css-checkbox lrg" checked><label for="checked-item-1" name="checked-item-1_lbl" class="css-label lrg vlad">Pine Sol</label><button type="button">x</button></li>
 			<li><input type="checkbox" id="checked-item-2" class="css-checkbox lrg" checked><label for="checked-item-2" name="checked-item-2_lbl" class="css-label lrg vlad">Paper towels</label><button type="button">x</button></li>
 			<li><input type="checkbox" id="checked-item-3" class="css-checkbox lrg" checked><label for="checked-item-3" name="checked-item-3_lbl" class="css-label lrg vlad">Wipes</label><button type="button">x</button></li>
@@ -36,5 +36,7 @@
 				<p>Copyright 2016</p>
 			</div>
 		</footer>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
